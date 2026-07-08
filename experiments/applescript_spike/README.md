@@ -1,8 +1,8 @@
 # AppleScript Spike
 
-This folder is reserved for diagnostic experiments around controlling the Spotify Mac app through AppleScript.
+Diagnostic only. This is not a supported production feature.
 
-It is not a production feature.
+This folder contains experiments for checking how the local Spotify Mac app responds to AppleScript automation.
 
 The purpose of this spike is to answer three questions before any rewrite:
 
@@ -11,3 +11,5 @@ The purpose of this spike is to answer three questions before any rewrite:
 3. Can AppleScript create or modify playlists in the current Spotify Mac app?
 
 If the answers are not clear and repeatable, Flow Switch should not depend on this path.
+
+This project is not affiliated with, endorsed by, or sponsored by Spotify. Spotify is mentioned only to describe the local app being tested.
