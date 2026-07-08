@@ -1,0 +1,32 @@
+{
+  "_說明": "Spotify 2024/11/27 後新 app 無法使用 recommendations API。改用本地 track pool：每個模式給一池你預先挑好的歌，程式隨機抽 30 首以 start_playback 啟動一組新的播放序列。可用 build_pool.py 從你自己的 playlist 自動填入。",
+  "_MVP門檻": "每個 pool 只要 ≥ 5 首即可啟動。Pool ≥ 30 時隨機抽 30 不重複；Pool 介於 5–29 時先全取再隨機補足到 30（可重複）。先讓功能跑起來，歌池之後再慢慢擴。4 情境 × 5 首 = 20 首即可上手。",
+  "focus_tracks": [
+    "spotify:track:REPLACE_WITH_AMBIENT_TRACK_1",
+    "spotify:track:REPLACE_WITH_AMBIENT_TRACK_2",
+    "spotify:track:REPLACE_WITH_AMBIENT_TRACK_3",
+    "spotify:track:REPLACE_WITH_AMBIENT_TRACK_4",
+    "spotify:track:REPLACE_WITH_AMBIENT_TRACK_5"
+  ],
+  "push_tracks": [
+    "spotify:track:REPLACE_WITH_HIGH_ENERGY_JPOP_KPOP_1",
+    "spotify:track:REPLACE_WITH_HIGH_ENERGY_JPOP_KPOP_2",
+    "spotify:track:REPLACE_WITH_HIGH_ENERGY_JPOP_KPOP_3",
+    "spotify:track:REPLACE_WITH_HIGH_ENERGY_JPOP_KPOP_4",
+    "spotify:track:REPLACE_WITH_HIGH_ENERGY_JPOP_KPOP_5"
+  ],
+  "cinematic_tracks": [
+    "spotify:track:REPLACE_WITH_SOUNDTRACK_OR_EPIC_1",
+    "spotify:track:REPLACE_WITH_SOUNDTRACK_OR_EPIC_2",
+    "spotify:track:REPLACE_WITH_SOUNDTRACK_OR_EPIC_3",
+    "spotify:track:REPLACE_WITH_SOUNDTRACK_OR_EPIC_4",
+    "spotify:track:REPLACE_WITH_SOUNDTRACK_OR_EPIC_5"
+  ],
+  "live_tracks": [
+    "spotify:track:REPLACE_WITH_LIVE_VERSION_1",
+    "spotify:track:REPLACE_WITH_LIVE_VERSION_2",
+    "spotify:track:REPLACE_WITH_LIVE_VERSION_3",
+    "spotify:track:REPLACE_WITH_LIVE_VERSION_4",
+    "spotify:track:REPLACE_WITH_LIVE_VERSION_5"
+  ]
+}
