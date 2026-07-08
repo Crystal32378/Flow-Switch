@@ -37,6 +37,8 @@ Do not commit:
 
 Use `.env.example` and `manual_playlists.example.json` as templates only.
 
+If you accidentally committed a real Spotify client secret or token, rotate it immediately in the Spotify Developer Dashboard and remove it from git history.
+
 ## Branding
 
 Do not use Spotify logos, icons, colors, or brand assets in this project. Do not present Flow Switch as an official Spotify product.
