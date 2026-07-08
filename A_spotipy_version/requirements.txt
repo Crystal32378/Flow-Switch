@@ -1,0 +1,8 @@
+spotipy>=2.23.0
+pystray>=0.19.5
+Pillow>=10.0.0
+pyobjc-core<12
+pyobjc-framework-Cocoa<12
+pyobjc-framework-Quartz<12
+urllib3<2
+python-dotenv>=1.0.0
