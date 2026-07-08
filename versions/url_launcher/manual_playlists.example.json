@@ -1,0 +1,22 @@
+{
+  "focus": {
+    "label": "專注",
+    "url": "https://open.spotify.com/playlist/your-focus-playlist",
+    "hint": "ambient / 古典 / 純音樂"
+  },
+  "push": {
+    "label": "推進",
+    "url": "https://open.spotify.com/playlist/your-push-playlist",
+    "hint": "高能 J-Pop / K-Pop"
+  },
+  "cinematic": {
+    "label": "影視餘韻",
+    "url": "https://open.spotify.com/album/your-cinematic-album",
+    "hint": "soundtrack / 史詩感配樂"
+  },
+  "live": {
+    "label": "現場戒斷",
+    "url": "https://open.spotify.com/playlist/your-live-playlist",
+    "hint": "Live 版本歌曲"
+  }
+}
