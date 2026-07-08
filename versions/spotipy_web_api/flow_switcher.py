@@ -1,5 +1,5 @@
 """
-Switch Flow Mode — Spotify 情緒換檔器
+Switch Flow Mode — 音樂情境切換器
 極簡系統托盤小工具，一鍵切換四種音樂情境。
 
 ⚠️ 架構變更說明（2024/11 Spotify Web API 政策）：
