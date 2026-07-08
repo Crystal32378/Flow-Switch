@@ -1,0 +1,19 @@
+# Secrets and local auth
+.env
+.spotify_cache.json
+spotify_app.json
+*.cache
+
+# Python
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+
+# macOS
+.DS_Store
+._*
+
+# Runtime config created by users
+manual_playlists.json
