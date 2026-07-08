@@ -1,8 +1,10 @@
 # A_spotipy_version
 
-This is the Premium-only version.
+This is the Web API player-control version.
 
-It uses Spotify Web API playback control through `spotipy`, so Spotify may require a Premium account for playback commands.
+It uses the Spotify Web API through `spotipy`, so Spotify may require a Premium account for playback commands.
+
+This project is not affiliated with, endorsed by, or sponsored by Spotify. Spotify is mentioned only to describe API compatibility.
 
 ## Setup
 
