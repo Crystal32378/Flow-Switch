@@ -2,7 +2,7 @@
 
 Flow Switch is an independent Mac-first experiment for switching music listening modes.
 
-The product idea is simple: each mode is a semantic entrance into a mood. The free MVP opens user-provided music service links, and the music app can continue playback with its own native behavior.
+The product idea is simple: each mode is a semantic entrance into a mood. The free MVP opens user-provided music links, and the music app can continue playback with its own native behavior.
 
 This project is not affiliated with, endorsed by, or sponsored by Spotify. Spotify is mentioned only to describe compatibility with Spotify URLs and the Spotify Web API.
 
@@ -10,13 +10,13 @@ This project is not affiliated with, endorsed by, or sponsored by Spotify. Spoti
 
 | Version | Folder | Account requirement | Status |
 | --- | --- | --- | --- |
-| C. URL launcher | `C_url_launcher_version/` | Free account works for URL opening | Recommended MVP |
-| A. Web API player control | `A_spotipy_version/` | Usually requires Spotify Premium | Preserved for future use |
-| B. AppleScript spike | `B_applescript_spike/` | Unknown | Diagnostic only |
+| URL launcher MVP | `versions/url_launcher/` | Free account works for URL opening | Recommended MVP |
+| Web API player control | `versions/spotipy_web_api/` | Usually requires Spotify Premium | Preserved for future use |
+| AppleScript spike | `experiments/applescript_spike/` | Unknown | Diagnostic only |
 
 ## Recommended Start
 
-Use `C_url_launcher_version/` first:
+Use `versions/url_launcher/` first:
 
 1. Double-click `4_manual_setup.command`.
 2. Paste four playlist or album URLs.
